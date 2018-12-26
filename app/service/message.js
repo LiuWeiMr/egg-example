@@ -1,4 +1,4 @@
-const Subscription = require('egg').Subscription;
+const Subscription = require('egg').Service;
 
 class MessageConsumer extends Subscription {
     async subscribe(message) {

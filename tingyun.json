@@ -1,7 +1,7 @@
 {
-  "agent_log_level": "info",
+  "agent_log_level": "debug",
   "app_name": [
-    "egg-test"
+    "egg-test-local"
   ],
   "licenseKey": "999-999-999",
   "host": "redirect.networkbench.com",
@@ -12,5 +12,8 @@
   "proxy_port": "",
   "proxy_user": "",
   "proxy_pass": "",
-  "audit_mode": true
+  "audit_mode": true,
+  "enforce_backstop": false,
+  "enabled" : true
+
 }

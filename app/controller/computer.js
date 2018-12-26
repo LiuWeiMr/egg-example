@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line strict
 const Controller = require('egg').Controller;
 
 
@@ -7,6 +8,7 @@ class ComputerController extends Controller {
         const ctx = this.ctx;
         const cLogo = ctx.params.cLogo;
         const computer = await ctx.service.computer.find(cLogo);
+        console.log("========");
         ctx.body = computer;
     }
     async create() {

@@ -122,6 +122,6 @@ module.exports = appInfo => {
         },
     };
 
-    config.keys = '123456';
+   config.keys = '123456';
   return config;
 };
